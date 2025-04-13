@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #000;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+  }
+  
+  .profile-img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
+  }
+  
+  .card {
+    background-color: #1e1e1e;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    max-width: 500px;
+  }
+  
+  .card h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+  .card h2 {
+    font-size: 22px;
+    color: #ffe082;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .objetivos {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .objetivos li {
+    font-size: 16px;
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .email {
+    font-size: 16px;
+    color: #fff9c4;
+    margin-top: 20px;
+  }
+  
